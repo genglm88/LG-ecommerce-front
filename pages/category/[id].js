@@ -1,5 +1,6 @@
 import Center from "@/components/Center"
 import Header from "@/components/Header"
+import Spinner from "@/components/Spinner"
 import NewProducts, {
   BoxTitle,
   ProductsGrid,
@@ -17,7 +18,7 @@ import React, { useEffect, useState } from "react"
 import styled from "styled-components"
 import { authOptions } from "../api/auth/[...nextauth]"
 import LikedProduct from "@/models/LikedProduct"
-import Spinner from "@/components/Spinner"
+
 
 const CatProp = styled.div`
   display: flex;
