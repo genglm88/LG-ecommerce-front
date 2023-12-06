@@ -166,7 +166,7 @@ export default function CategoriesPage({
           </LabelDiv>
         </CatProp>
         {loading ? (
-          <Spinner fullWidth />
+          <Spinner fullWidth={true} />
         ) : products.length > 0 ? (
           <ProductsGrid>
             {products.map((product, index) => {
