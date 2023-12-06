@@ -4,9 +4,10 @@ import Center from "./Center"
 import Link from "next/link"
 import { CartContext } from "./CartContext"
 import BarsIcon from "./icons/BarsIcon"
-import SearchIcon from "./icons/searchIcon"
+
 import StyledButton from "./ButtonStyle"
 import { useSession } from "next-auth/react"
+import SearchIcon from "./icons/SearchIcon"
 
 const StyledHeader = styled.header`
   background-color: #222;

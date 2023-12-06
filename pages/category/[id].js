@@ -6,7 +6,7 @@ import NewProducts, {
   Title,
 } from "@/components/NewProducts"
 import ProductBox from "@/components/ProductBox"
-import Spinner from "@/components/spinner"
+import Spinner from "./Spinner"
 import mongooseConnect from "@/lib/mongoose"
 import { Category } from "@/models/Category"
 import Product from "@/models/Product"
