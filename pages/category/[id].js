@@ -1,6 +1,6 @@
 import Center from "@/components/Center"
 import Header from "@/components/Header"
-import Spinner from "@/components/Spinner"
+import Spinner from "../../components/Spinner"
 import NewProducts, {
   BoxTitle,
   ProductsGrid,
