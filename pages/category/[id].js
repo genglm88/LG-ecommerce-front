@@ -14,7 +14,6 @@ import axios from "axios"
 import { getServerSession } from "next-auth"
 import { RevealWrapper } from "next-reveal"
 import React, { useEffect, useState } from "react"
-
 import styled from "styled-components"
 import { authOptions } from "../api/auth/[...nextauth]"
 import LikedProduct from "@/models/LikedProduct"
